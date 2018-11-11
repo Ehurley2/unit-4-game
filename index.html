@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>crystals collector game</title>
+  <link rel="stylesheet" href="assets/css/reset.css"/>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>  
+</head>
+<body>
+
+  <h1>Crystal Collector </h1>
+
+<br>
+<br>
+    <ul>
+      <li>You will be given a magic number at the start of the game. </li>
+
+      <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+    
+      <li>You win the game by matching your total score to the magic number, you lose the game if your total score goes above the magic number.</li> 
+    
+      <li>The value of each crystal is hidden from you until you click on it.</li>
+    
+      <li>Each time when the game starts, the game will change the values of each crystal. </li>
+  </ul>
+
+    <br>
+<img class="crystal-image" id="image1" src="assets/images/crystal1.jpg">
+<img class="crystal-image" id="image2" src="assets/images/crystal2.jpg">
+<img class="crystal-image" id="image3" src="assets/images/crystal3.jpg">
+<img class="crystal-image" id="image4" src="assets/images/crystal4.jpg">
+<br>
+<br>
+<div>
+  <h2>Magic number:
+    <span id= "randomNumber"></span>
+  </h2>
+</div>
+<div class="userTotal">
+  <h2>Your total score is:
+    <span id="finalTotal"></span>
+  </h2>
+</div>
+<div>
+  <h2>Wins:
+    <span id= "win"></span>
+    <br>
+    Losses: 
+    <span id= "loss"></span>
+  </h2>
+</div>
+
+</body>
+</html>
